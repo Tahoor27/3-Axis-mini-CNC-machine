@@ -15,8 +15,8 @@
 char STEP = MICROSTEP ;
 
 // Servo position for Up and Down 
-const int penZUp = 95;
-const int penZDown = 83;
+const int penZUp = 140;
+const int penZDown = 165;
 
 // Servo on PWM pin 10
 const int penServoPin =10 ;
@@ -43,7 +43,7 @@ struct point actuatorPos;
 
 //  Drawing settings, should be OK
 float StepInc = 1;
-int StepDelay = 0;
+int StepDelay = 1;
 int LineDelay =0;
 int penDelay = 50;
 
